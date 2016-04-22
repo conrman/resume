@@ -1,0 +1,22 @@
+header {
+  > .row > .column > .media-object {
+    @include breakpoint(medium) {
+      height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .thumbnail {
+    border-radius: 100%;
+  }
+
+  .main-section {
+    h1,
+    h2 {
+      line-height: 1;
+    }
+  }
+
+}

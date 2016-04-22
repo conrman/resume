@@ -1,0 +1,196 @@
+{
+  "basics": {
+    "name": "Connor Freeman",
+    "label": "Web Developer",
+    "picture": "https://secure.gravatar.com/avatar/e725730aa7f468185f961f762a2dd84e",
+    "email": "connormfreeman@gmail.com",
+    "phone": "(817) 798-8935",
+    "website": "http://connorfreeman.com",
+    "summary": "Working for the past year with national oraganizations and individuals as a freelance web developer and consultant, with a track record of on-time and on-budget projects. Looking to work where I can bring immediate value and develop my skill-set further. Preferably with a team that values security, usability, strategy, and finds enjoyment in building a good product.",
+    "location": {
+      "address": "5120 Whistler Drive",
+      "postalCode": "76133",
+      "city": "Fort Worth",
+      "countryCode": "US",
+      "state": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "conrman",
+        "url": "https://github.com/conrman"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Connor Freeman",
+        "url": "https://www.linkedin.com/in/connor-freeman-80417688"
+      },
+      {
+        "network": "Twitter",
+        "username": "conrfrmn",
+        "url": "https://twitter.com/conrfrmn"
+      },
+      {
+        "network": "Codepen",
+        "username": "conrman",
+        "url": "http://codepen.io/conrman/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Freelance",
+      "position": "Web developer and consultant",
+      "website": "http://connorfreeman.com",
+      "startDate": "April 15, 2015",
+      "endDate": "Present",
+      "summary": "My work has covered a variety of projects and services, consulting with individuals starting an eCommerce business to working with internal teams at advertising and design agencies. I excel at bridging the gap between design, development, and business strategy. Understanding of business goals helps translate into the success of my work. "
+    },
+    {
+      "company": "Mixed Media Creations",
+      "position": "Web Developer",
+      "website": "http://mixedmediacreations.com",
+      "startDate": "April 1, 2014",
+      "endDate": "April 15, 2015",
+      "summary": "Working with a team of developers, designers, and account managers to build custom websites for multi-family real estate apartment properties all over the world. My job included working with designers to create responsive, mobile friendly websites that connect with backend databases to show current apartment listings for prospective renters. I also helped develop and manage an agile workflow to delegate tasks and assign code review for the other developers on the team.",
+      "highlights": [
+        "Developed an in-house build-system using composer comprised of a custom WordPress application architecture, custom reusable templates, gulp task runner, and a deploy process. This increased productivity with code reuse and streamlined on-boarding of new team members.",
+        "Built interactive maps using Google Maps API to highlight businesses nearby an apartment location.",
+        "Created interactive floorplans for apartments with pricing details from an availability API."
+      ],
+      "skills": [
+        "Angular",
+        "AJAX",
+        "Google Maps API",
+        "Static site generators",
+        "Composer",
+        "Roots WordPress Framework",
+        "Object Oriented JavaScript"
+      ]
+    },
+    {
+      "company": "QuickSilver Interactive Group",
+      "position": "Web Developer",
+      "website": "http://qsigroup.com",
+      "startDate": "May 22, 2011",
+      "endDate": "April 1, 2014",
+      "summary": "I began as an intern over the summer of 2011 and learned a lot about web development. I helped manage dozens of applications on both frontend and backend. I was invited to return the following summer as a developer to work on projects of my own.",
+      "highlights": [
+        "Front-end developer for Ruby on Rails application",
+        "Developed Facebook store locator application",
+        "Maintain client inventory databases in PostgreSQL and MySQL"
+      ],
+      "skills": [
+        "HTML5",
+        "CSS3",
+        "jQuery",
+        "Zend Framework",
+        "Ruby on Rails",
+        "WordPress",
+        "Drupal"
+      ]
+    },
+    {
+      "company": "Professional Development Institute",
+      "position": "Web Master",
+      "website": "http://pdi.org",
+      "startDate": "Febuary 18, 2012",
+      "endDate": "April 1, 2014",
+      "summary": "I worked part-time during school to manage the website and internal services. Part of my job was creating new calendar events for their conferences, I did this by automation testing with Selenium. This dramatically reduced time and cost for the business. It gave me free time to build internal services like a purchase order tracking system.",
+      "highlights": [
+        "Selenium",
+        "Microsoft Access",
+        "Drupal"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of North Texas",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "September 2010",
+      "endDate": "May 2014",
+      "gpa": "0.0",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Udacity",
+      "area": "Javascript",
+      "studyType": "Online",
+      "courses": [
+        "Object Oriented Javascript",
+        "JavaScript Patterns"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Project Management",
+      "level": "Good",
+      "keywords": [
+        "Strategy",
+        "Organization",
+        "Agile"
+      ]
+    },
+    {
+      "name": "WordPress Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Shopify Theme Development",
+      "level": "Good",
+      "keywords": [
+        "Liquid Templates",
+        "Javascript",
+        "AJAX"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Marq Sanchez",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}

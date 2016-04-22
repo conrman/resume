@@ -1,0 +1,8 @@
+a.hide-url-for-print {
+  @media print {
+    text-decoration: none;
+    &:after {
+      content: "";
+    }
+  }
+}
