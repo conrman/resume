@@ -28,11 +28,17 @@
 <main id="mainContent">
   <div class="row align-center">
     <div class="column medium-8">
-      <section id="bio" class="resume-section">
-        <h3 class="invisible">Bio</h3>
+      <section id="description" class="resume-section">
+        <h3 class="hide" aria-label="description">Bio</h3>
         <article class="bio">
           <p>{{ resume.basics.summary }}</p>
         </article>
+        <aside id="skillChartContainer">
+          <div id="skillHierarchy"></div>
+          <div id="skillChart">
+            <div id="skillDetails"></div>
+          </div>
+        </aside>
       </section>
       <hr>
 
