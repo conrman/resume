@@ -22,6 +22,9 @@ var PATHS = {
     'src/assets/**/*',
     '!src/assets/{!img,js,scss}/**/*'
   ],
+  data: [
+    'src/data/**/*'
+  ],
   sass: [
     'bower_components/foundation-sites/scss',
     'bower_components/motion-ui/src/'
@@ -51,7 +54,7 @@ var PATHS = {
     'bower_components/foundation-sites/js/foundation.tabs.js',
     'bower_components/foundation-sites/js/foundation.toggler.js',
     'bower_components/foundation-sites/js/foundation.tooltip.js',
-    'src/assets/js/**/*.js',
+    'bower_components/d3/d3.js',
     'src/assets/js/app.js'
   ]
 };
@@ -67,6 +70,8 @@ gulp.task('clean', function(done) {
 gulp.task('copy', function() {
   gulp.src(PATHS.assets)
     .pipe(gulp.dest('dist/assets'));
+  gulp.src(PATHS.data)
+    .pipe(gulp.dest('dist/data'));
 });
 
 // Copy page templates into finished HTML files

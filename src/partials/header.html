@@ -1,0 +1,29 @@
+<header class="resume-header">
+  <div class="row align-center">
+    <div class="columns">
+      <div class="resume-header__profile media-object stack-for-small">
+        <div class="media-object-section middle">
+          <img id="gravatar" class="resume-avatar thumbnail img-circle" src="{{ resume.basics.picture }}" alt="{{ resume.basics.name }}" role="profile">
+        </div>
+        <div class="media-object-section main-section middle">
+          <h1><b>{{ resume.basics.name }}</b></h1>
+          <h2>{{ resume.basics.label }}</h2>
+          <p>
+            <a class="hide-url-for-print" href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a>
+            <span class="hide-for-small-only">&mdash;</span>
+            <br class="show-for-small-only">
+            <a class="hide-url-for-print" href="tel:+{{ resume.basics.phone }}">{{ resume.basics.phone }}</a>
+          </p>
+        </div>
+        <div class="media-object-section middle text-center hide-for-print">
+          <h6>Resume</h6>
+          <div class="button-group" style="position: relative;">
+            <button id="printResume"class="button primary top" href="javascript:window.print();" aria-role="print" title="Print this page">Print</button>
+            <button id="downloadResume" class="button secondary" href="" aria-role="download">Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+

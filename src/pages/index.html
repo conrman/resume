@@ -1,35 +1,8 @@
-<header>
+<main id="mainContent" class="resume-content">
   <div class="row align-center">
-    <div class="columns">
-        <div class="media-object stack-for-small">
-          <div class="media-object-section middle">
-            <img id="gravatar" class="thumbnail img-circle" src="{{ resume.basics.picture }}" alt="{{ resume.basics.name }}" role="profile">
-          </div>
-          <div class="media-object-section main-section middle">
-            <h1><b>{{ resume.basics.name }}</b></h1>
-            <h2>{{ resume.basics.label }}</h2>
-            <p>
-              <a class="hide-url-for-print" href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a> &mdash; <a class="hide-url-for-print" href="tel:+{{ resume.basics.phone }}">{{ resume.basics.phone }}</a>
-            </p>
-          </div>
-          <div class="media-object-section middle hide-for-print">
-            <div class="button-group small social-media text-center">
-            {{#each resume.basics.profiles}}
-              <a class="button primary" href="{{ this.url }}" target="_blank">{{ this.network }}</a>
-            {{/each}}
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-
-<main id="mainContent">
-  <div class="row align-center">
-    <div class="column medium-8">
-      <section id="bio" class="resume-section">
-        <h3 class="invisible">Bio</h3>
+    <div class="column medium-8 large-6">
+      <section id="description" class="resume-content__section">
+        <h3 class="hide" aria-label="description">Bio</h3>
         <article class="bio">
           <p>{{ resume.basics.summary }}</p>
         </article>
@@ -37,11 +10,11 @@
       <hr>
 
       <!-- Job Experience -->
-      <section id="jobExperience" class="resume-section">
+      <section id="jobExperience" class="resume-content__section">
         <h3>Job Experience</h3>
         {{#each resume.work}}
-          <article class="work">
-            <div class="resume-section__group">
+          <article class="resume-content__section-article work">
+            <div class="resume-content__section-article__group">
               <!-- Job -->
               <h5> <a href="{{ this.website }}">{{ this.company }}</a> </h5>
               <!-- Title & time -->
@@ -54,7 +27,7 @@
               <p>{{ this.summary }}</p>
             </div>
             <!-- Highlights -->
-            <div class="resume-section__group">
+            <div class="resume-content__section-article__group">
               {{#if this.highlights}}
                 <h6>Highlights:</h6>
                 <ul>
@@ -63,7 +36,7 @@
               {{/if}}
             </div>
             <!-- Skills -->
-            <div class="resume-section__group">
+            <div class="resume-content__section-article__group">
               {{#if this.skills}}
                 <h6>Skills:</h6>
                 <p>
@@ -78,7 +51,7 @@
       <hr>
 
       <!-- Skills -->
-      <section id="skills" class="resume-section">
+      <section id="skills" class="resume-content__section">
         <h3>Skills:</h3>
         {{#if resume.skills}}
           <div class="skills">
@@ -94,13 +67,3 @@
     </div>
   </div>
 </main>
-
-<aside class="hide-for-print" data-sticky data-options="stickTo:bottom;stickyOn:small;marginBottom:0;">
-  <div id="printDownloadResumeContainer" class="callout small text-center">
-    <h6>Resume</h6>
-    <div class="button-group">
-      <button id="printResume" class="button primary" href="javascript:window.print();" aria-role="print">Print</button>
-      <button id="downloadResume" class="button secondary" href="" aria-role="download">Download</button>
-    </div>
-  </div>
-</aside>

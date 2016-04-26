@@ -1,15 +1,21 @@
-header {
-  > .row > .column > .media-object {
-    @include breakpoint(medium) {
-      height: 30vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
+.resume-header {
+  background: $black;
+  color: $white;
+  margin-bottom: $global-padding;
+  padding: $global-padding;
 
-  .thumbnail {
-    border-radius: 100%;
+  @media print {
+    width: 100%;
+  }
+}
+
+
+.resume-header__profile {
+  padding-top: $global-padding;
+
+  @include breakpoint(medium) {
+    @include flex-grid-row;
+    @include flex-align(center, middle);
   }
 
   .main-section {
@@ -17,6 +23,9 @@ header {
     h2 {
       line-height: 1;
     }
-  }
 
+    @include breakpoint(small down) {
+      text-align: center;
+    }
+  }
 }
