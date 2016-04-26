@@ -70,8 +70,6 @@ gulp.task('clean', function(done) {
 gulp.task('copy', function() {
   gulp.src(PATHS.assets)
     .pipe(gulp.dest('dist/assets'));
-  gulp.src(PATHS.data)
-    .pipe(gulp.dest('dist/data'));
 });
 
 // Copy page templates into finished HTML files
