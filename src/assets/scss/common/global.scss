@@ -6,3 +6,10 @@ a.hide-url-for-print {
     }
   }
 }
+
+
+@media print {
+  body {
+    font-size: 12px;
+  }
+}
