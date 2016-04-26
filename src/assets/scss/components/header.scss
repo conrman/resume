@@ -3,10 +3,6 @@
   color: $white;
   margin-bottom: $global-padding;
   padding: $global-padding;
-
-  @media print {
-    width: 100%;
-  }
 }
 
 
@@ -17,8 +13,8 @@
     @include flex-grid-row;
     @include flex-align(center, middle);
   }
-
   .main-section {
+
     h1,
     h2 {
       line-height: 1;
@@ -27,5 +23,5 @@
     @include breakpoint(small down) {
       text-align: center;
     }
+    }
   }
-}

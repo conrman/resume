@@ -1,5 +1,8 @@
 .resume-content {
   margin-bottom: 100px;
+  @media print {
+    margin-bottom: 0;
+  }
 }
 
 
