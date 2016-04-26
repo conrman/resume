@@ -1,0 +1,9 @@
+.resume-callout {
+  width: 100%;
+  right: 0;
+
+  > .callout {
+    @extend .small;
+    margin-bottom: 0;
+  }
+}
